@@ -1,0 +1,203 @@
+/* Estilos generales */
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: plum;
+}
+h2{
+    font-size: 36px;
+    color: black;
+}
+h3{
+    text-align: center;
+    font: size 22px;
+    margin-left: 20px;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 300;
+    padding: 100;
+    line-height: 1.6;
+    background-image:"leidy .png" ;
+    background-repeat: "no-repeat";
+}
+
+.p{
+    text-align: left;
+    text-decoration-color:whitesmoke;
+    font-size: 22px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    display: inline-block;
+    margin: auto;
+}
+
+.imagen2{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    margin: auto;}
+
+/* Estilos del encabezado */
+header {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 0.5rem;
+    color:#fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 1rem;
+}
+
+/* Estilos del pie de página */
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+}
+
+.ejemplo{
+    font-size: 32px;
+    background-color: black;
+    color: bisque;
+    text-align: center;
+}
+
+.mi-boton {
+    padding: 10px 20px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-display:initial;
+}
+
+.container {
+    height: 2000px; /* Agrega algo de altura para simular un contenido más largo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .floating-button {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease; /* Transición para el efecto suave */
+  }
+  .floating-button:hover {
+    background-color: #fff;
+  }
+  .floating-button.scroll-up {
+    transform: translateY(-20px); /* Desplazamiento hacia arriba */
+  }
+
+/** BOTON ARRIBA **/
+.button-up {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #c8c8c8;
+    background-color: black;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  .button-up:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: white;
+  }
+
+.certificados{
+    width: 250px;    height: 180px;
+    font-size: 16px;
+    margin: auto;}
+
+    .image-container {
+        position:absolute;
+        width: 300px; /* Ajusta el tamaño según tus necesidades */
+        height: 400px;
+        overflow: hidden;
+        align-content: left;
+        animation-timeline:center;
+      }
+      .image {
+        align-items: center;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        animation: fadeImage 5s infinite; /* Duración de la animación (5 segundos en este ejemplo) y repeticiones infinitas */
+      }
+      @keyframes fadeImage {
+        0%, 50% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+      .Logos{
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .conte{
+        width: 800px; /* Ajusta el ancho del contenedor según tus necesidades */
+        border: 1px solid #ccc; /* Agrega un borde al contenedor para que sea visible */
+        padding: 10px; /* Agrega un espacio interno para separar el contenido del borde */
+        margin-left: 400px;}
